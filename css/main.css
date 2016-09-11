@@ -1,0 +1,111 @@
+html body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #E0EEEE;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-size: 50px;
+	font-weight: 500;
+	/*border-left: 41px solid #00f28f;*/
+	margin: 0;
+
+}
+
+.heading {
+	margin: 80px 0px 40px 0px;
+	border-left: 3px solid #00f28f;
+	padding-left: 12px;
+}
+
+.form {
+	margin: 0px 0px 50px 0px;
+}
+
+input {
+	font-size: 36px;
+	border: none;
+	border-radius: 6px;
+	/*margin: 0px 0px 50px 0px;*/
+}
+
+::-webkit-input-placeholder { color: #b3bebe; opacity: 1 !important; }
+:-moz-placeholder { color: #b3bebe;}
+::-moz-placeholder {color: #b3bebe;}
+:-ms-input-placeholder {color: #b3bebe;}
+
+#post-button {
+	background: transparent;
+	border: none;
+	border-radius: 10px;
+	color: #00f28f;
+	cursor: pointer;
+	font-size: 36px;
+	font-weight: bold;
+	padding: 20px 24px;
+	transition: background 2s, color 2s;
+
+}
+
+#post-button:hover {
+	background: #00f28f;
+	color: #fff;
+	transition: background 2s, color 2s;
+}
+
+.thread {
+	list-style: none;
+}
+
+li {
+	border-left: 2px solid black;
+	font-size: 30px;
+	margin-bottom: 36px;
+	opacity: 0;
+	padding-left: 30px;
+}
+
+li:nth-child(1){
+	opacity: 1;
+}
+
+li:nth-child(2){
+	opacity: 0.9;
+}
+
+li:nth-child(3){
+	opacity: 0.8;
+}
+
+li:nth-child(4){
+	opacity: 0.7;
+}
+
+li:nth-child(5){
+	opacity: 0.6;
+}
+
+li:nth-child(6){
+	opacity: 0.5;
+}
+
+li:nth-child(7){
+	opacity: 0.4;
+}
+
+li:nth-child(8){
+	opacity: 0.3;
+}
+
+li:nth-child(9){
+	opacity: 0.2;
+}
+
+li:nth-child(10){
+	opacity: 0.1;
+}
+
+li:nth-child(11){
+	opacity: 0;
+}
